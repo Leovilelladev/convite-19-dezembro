@@ -19,6 +19,6 @@ formulario.addEventListener('submit', (event) => {
   event.preventDefault();
 
   const nome = document.querySelector('#nome').value.trim();
-  mensagem.textContent = `Que bom, ${nome}! Sua presença já está na lista.`;
+  mensagem.textContent = `Combinado, ${nome}! Vai ser bom ter você por perto.`;
   formulario.reset();
 });

@@ -7,7 +7,7 @@
   <title>19 de dezembro | Um dia especial</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,23 +29,24 @@
   <main>
     <section class="hero" id="inicio">
       <div class="hero-conteudo">
-        <p class="etiqueta">Uma data para guardar</p>
-        <h1>O melhor da vida é ter um motivo para <em>celebrar.</em></h1>
+        <p class="etiqueta">Uma anotação no calendário</p>
+        <h1>19 de dezembro<br>é o meu dia <em>favorito.</em></h1>
         <p class="hero-texto">
-          Todo ano tem uma data que muda o clima do calendário. Para mim, ela chega em 19 de dezembro.
+          Foi nesse dia, em 2003, que a minha história começou. Desde então, eu gosto de comemorar sem muita pressa e perto de quem faz bem.
         </p>
         <div class="hero-acoes">
           <a class="botao botao-principal" href="#convite">Ver o convite <span>↗</span></a>
-          <a class="link" href="#historia">Conhecer a história</a>
+          <a class="link" href="#historia">Ler a história</a>
         </div>
       </div>
 
       <div class="data-card" aria-label="Data do aniversário">
+        <span class="data-selo">anota aí</span>
         <span class="data-mes">DEZEMBRO</span>
         <strong>19</strong>
         <span class="data-ano">desde 2003</span>
         <div class="data-linha"></div>
-        <p>um novo capítulo<br>começa aqui</p>
+        <p>meu dia<br>favorito</p>
       </div>
 
       <span class="bolinha bolinha-um"></span>
@@ -57,22 +58,25 @@
     <section class="historia secao" id="historia">
       <div class="secao-titulo">
         <p class="etiqueta">A história</p>
-        <h2>Um dia comum que virou <em>o meu dia.</em></h2>
+        <h2>Uma data simples,<br>cheia de <em>coisa boa.</em></h2>
       </div>
       <div class="historia-texto">
         <p>
-          Em 19 de dezembro de 2003, começou uma história feita de encontros, aprendizados e pequenas conquistas.
-          Desde então, essa data virou uma pausa gostosa para agradecer pelo caminho e abrir espaço para o que ainda vem.
+          Não precisa de muita produção. Um bolo gostoso, conversa que se estende e gente querida por perto já fazem o dia ficar especial.
+          O aniversário é só uma desculpa bonita para agradecer pelo caminho e abrir espaço para o que ainda vem.
         </p>
-        <div class="numero">23<span>°</span><small>capítulo chegando</small></div>
+        <div class="nota">
+          <span class="nota-fita"></span>
+          <p>um dia para agradecer,<br>rir alto e repetir o bolo</p>
+        </div>
       </div>
     </section>
 
     <section class="convite secao" id="convite">
       <div class="convite-topo">
         <p class="etiqueta etiqueta-clara">O convite</p>
-        <h2>Você faz parte<br>desse momento.</h2>
-        <p>Uma data bonita fica ainda melhor quando é compartilhada.</p>
+        <h2>Se você estiver por perto,<br><em>vem comigo.</em></h2>
+        <p>Uma data bonita fica ainda melhor quando é compartilhada sem cerimônia.</p>
       </div>
 
       <div class="detalhes">
@@ -87,14 +91,14 @@
           <span class="detalhe-icone">♡</span>
           <div>
             <span class="detalhe-label">Clima</span>
-            <strong>Leve, alegre e especial</strong>
+            <strong>Sem pressa e com risada</strong>
           </div>
         </div>
         <div class="detalhe">
           <span class="detalhe-icone">☼</span>
           <div>
-            <span class="detalhe-label">Dress code</span>
-            <strong>Venha do seu jeito</strong>
+            <span class="detalhe-label">Traga</span>
+            <strong>Vontade de conversar</strong>
           </div>
         </div>
       </div>
@@ -102,24 +106,24 @@
 
     <section class="presenca secao" id="presenca">
       <div>
-        <p class="etiqueta">Confirme sua presença</p>
-        <h2>Vamos fazer<br>essa data valer.</h2>
+        <p class="etiqueta">Deixa seu nome aqui</p>
+        <h2>Vamos fazer<br>esse dia ficar <em>mais bonito.</em></h2>
       </div>
 
       <form class="formulario">
         <label for="nome">Seu nome</label>
         <input id="nome" name="nome" type="text" placeholder="Como posso te chamar?" required>
-        <button class="botao botao-principal" type="submit">Eu vou celebrar <span>→</span></button>
+        <button class="botao botao-principal" type="submit">Pode contar comigo <span>→</span></button>
         <p class="formulario-mensagem" role="status"></p>
       </form>
     </section>
   </main>
 
   <footer class="rodape">
-    <p>Feito para celebrar o dia <strong>19.12</strong></p>
+    <p>Feito com carinho para o dia <strong>19.12</strong></p>
     <a href="#inicio">Voltar ao topo ↑</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>
